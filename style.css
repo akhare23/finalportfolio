@@ -1,0 +1,37 @@
+
+h1{
+    color:aqua;
+}
+*{
+    border:dashed blue;
+}
+
+.grid{
+    display:flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+    flex-grow:10px;
+}
+.heading{
+    display:flex;
+    flex-grow:0;
+}
+.footer{
+    display:flex;
+    justify-content:flex-end;
+
+}
+.bullets{
+    display:flex;
+    justify-content:center;
+}
+p{
+    text-align:center
+}
+a{
+    color:greenyellow;
+}
+a:hover{
+    color:purple;
+}

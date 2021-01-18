@@ -2,46 +2,59 @@
 <html>
     <head>
         <title>Aayan's Portfolio</title>
-        <style>
-            h1{
-                color:aqua;
-            }
-            *{
-                border:dashed blue;
-            }
-        </style>
+       <link
+       href = "style.css"
+       type = "text/css"
+       rel = "stylesheet"
+       />
     </head>
     <body>
-        <h1>Aayan's Porfolio</h1>
-        <a href = "aboutme.html"><h2>About me:</h2></a>
-        <h3>Hello, my name is Aayan, and I am a future developer and programmer. In this site you will see some of my current projects and libraries for which I coded them.</h3>
+        <div class = "heading">
+            <h1>Aayan's Porfolio</h1>
+            <div class = "about">
+                <a href = "aboutme.html"><h2>About me:</h2></a>
+                <h3>Hello, my name is Aayan, and I am a future developer and programmer. In this site you will see some of my current projects and libraries for which I coded them.</h3>
+            </div>
+        </div>
+        <div class = "grid">
+            <div class = "item">
+                <a href = "https://whitehatjr.github.io/AngryBirds-1/"><img src = "images/angryBirds.png" height = 400 width = 600></a>
+                <p>Angry Birds Game</p> 
+                <div class = "bullets">
+                    <UL type = "square">
+                        <LI>matter.js library</LI>
+                        <LI>physics engine</LI>
+                    </UL>
+                </div>
+            </div> 
+            <div class = "item">
+                <a href = "https://studio.code.org/projects/gamelab/l8gg2ID9B0WlHEEJqGS0jzX3nZ6XMF7Nz6oNYaaqcy4"><img src = "images/pong.png" height = 400 width = 600></a>
+                <p>Pong Game</p>
+                    <div class = "bullets">
+                        <UL type = "square">
+                            <LI>Sprite objects</LI>
+                            <LI>object oriented programming</LI>
+                        </UL>
+                    </div>
+            </div>
+            <div class ="item">
+                <a href = "http://www.trex-game.skipser.com/"><img src = "images/trexRunner.png" height = 400 width = 600></a>
+                <p>Trex Runner Game</p>
+                <div class = "bullets">
+                    <UL type = "square">
+                        <LI>Infinite Game World</LI>
+                        <LI>Simulating physics properties</LI>
+                    </UL>
+                </div>
+            </div>
+        </div>
+        <div class = "footer">
+            <a href = "https://www.facebook.com/"><img src = "images/fb.png" height = 100 width = 100></a>
+            
+            <a href = "https://www.instagram.com/"><img src = "images/insta.png" height = 100 width = 100></a>
 
-        <a href = "https://whitehatjr.github.io/AngryBirds-1/"><img src = "images/angryBirds.png" height = 200 width = 300></a>
-        <p>Angry Birds Game</p> 
-        <UL type = "square">
-            <LI>matter.js library</LI>
-            <LI>physics engine</LI>
-        </UL>
-
-        <a href = "https://studio.code.org/projects/gamelab/l8gg2ID9B0WlHEEJqGS0jzX3nZ6XMF7Nz6oNYaaqcy4"><img src = "images/pong.png" height = 200 width = 300></a>
-        <p>Pong Game</p>
-        <UL type = "square">
-            <LI>Sprite objects</LI>
-            <LI>object oriented programming</LI>
-        </UL>
-
-        <a href = "http://www.trex-game.skipser.com/"><img src = "images/trexRunner.png" height = 200 width = 300></a>
-        <p>Trex Runner Game</p>
-        <UL type = "square">
-            <LI>Infinite Game World</LI>
-            <LI>Simulating physics properties</LI>
-        </UL>
-
-        <a href = "https://www.facebook.com/"><img src = "images/fb.png" height = 100 width = 100></a>
-        
-        <a href = "https://www.instagram.com/"><img src = "images/insta.png" height = 100 width = 100></a>
-
-        <a href = "https://www.youtube.com/"><img src = "images/youtube.png" height = 100 width = 100></a>
+            <a href = "https://www.youtube.com/"><img src = "images/youtube.png" height = 100 width = 100></a>
+        </div>
     </body>
 
 </html>
