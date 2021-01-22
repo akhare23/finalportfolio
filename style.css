@@ -1,9 +1,11 @@
 
 h1{
-    color:aqua;
+    color:#00FFFF;
+    padding:50px;
+    margin:20px;
 }
 *{
-    border:dashed blue;
+    border:dashed #0000FF;
 }
 
 .grid{
@@ -12,10 +14,12 @@ h1{
     flex-wrap: wrap;
     flex-direction: row;
     flex-grow:10px;
+    background-image:url("images/angryBirds.png");
+    border-bottom-color: orange;
+    border-bottom:solid 10px orange;
 }
 .heading{
     display:flex;
-    flex-grow:0;
 }
 .footer{
     display:flex;
@@ -30,8 +34,19 @@ p{
     text-align:center
 }
 a{
-    color:greenyellow;
+    color:#ADFF2F;
 }
 a:hover{
-    color:purple;
+    color:#800080;
+}
+.item{
+    flex-grow:2;
+}
+.item2{
+    flex-shrink:4;
+}
+LI{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style:italic;
+    font-weight:bold;
 }
